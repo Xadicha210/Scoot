@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,700&family=Titillium+Web:wght@200;300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 0;
+}
+.header_left {
+  display: flex;
+  align-items: center;
+}
+.scoot h1 {
+  font-size: 32px;
+  font-family: sans-serif;
+  color: #495567;
+}
+.header_left ul {
+  display: flex;
+  margin: 0 30px;
+}
+.header_left ul li {
+  list-style: none;
+  margin: 0 15px;
+  font-family: "Roboto", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+}
+/*  header right button */
+
+.header_right button {
+  border: none;
+  padding: 12px 35px;
+  background-color: #fcb72b;
+  color: white;
+  font-size: 15px;
+}
+
+.main_sSharing{
+    background-image: url("./images/Bitmap.jpg");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.8; */
+}
+#main_img{
+  /* text-align: center; */
+  padding: 150px 0 0 0px;
+}
+
+.sSharing_test h1{
+  /* text-align: center; */
+    font-size: 40px;
+    width: 350px;
+    color: white;
+}
+#scoot_img_line_text{
+    display: flex;
+    text-align: center;
+    color: white;
+}
+#scoot_img_line_text p{
+    width: 400px;
+}
+.sSharing_test h1{
+  margin: 50px;
+}
+
+.main_orta_qism{
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+.main_orta{
+  margin: 0 30px;
+}
+.main_orta p{
+  width: 350px;
+  color: rgb(136, 135, 135);
+}
+.main_orta img{
+  display: flex;
+}
+.img1{
+  width: 300px;
+  height: 300px;
+  margin-left: 900px;
+  margin-top: 90px;
+}
+.img2{
+  width: 590px;
+  height: 90px;
+}
+.img_chiziq {
+  margin-left: 18px;
+  z-index: 999;
+  margin-top: -100px;
+}
+.my_strelka {
+  margin-top: -45px;
+  width: 50px;
+  height:50px ;
+}
+
+.mani_divm  {
+  margin-left: 500px;
+}
+.img3 {
+  height:70px;
+  width: 50px;
+}
+.main_container{
+  display: flex;
+  justify-content: space-around;
+}
+.button_get{
+  padding: 10px;
+  background-color: #FCB72B;
+  width: 140px;
+  border: none;
+  color: white;
+}
+.button_learn{
+  padding: 10px;
+  background-color:#FCB72B;
+  width: 140px;
+  border: none;
+  color: white;
+}
